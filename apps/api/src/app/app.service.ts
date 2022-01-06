@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import {Game} from "../../../../libs/api/util-interface/src/lib/api-util-interface";
+import {Game} from "../../../../libs/util-interface/src/lib/api-util-interface";
 
 @Injectable()
 export class AppService {

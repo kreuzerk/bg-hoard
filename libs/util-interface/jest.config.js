@@ -1,6 +1,6 @@
 module.exports = {
-  displayName: 'api-util-interface',
-  preset: '../../../jest.preset.js',
+  displayName: 'util-interface',
+  preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
     'ts-jest': {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../coverage/libs/api/util-interface',
+  coverageDirectory: '../../coverage/libs/util-interface',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
