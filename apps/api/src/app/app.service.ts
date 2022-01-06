@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import {Game} from "../../../../libs/util-interface/src/lib/api-util-interface";
 
 @Injectable()
 export class AppService {
-  private games = [
+  private games: Game[] = [
     {
       id: 'settlers-in-the-can',
       name: 'Settlers in the Can',
