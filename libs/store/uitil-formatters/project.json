@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/store/uitil-formatters",
+  "sourceRoot": "libs/store/uitil-formatters/src",
+  "prefix": "bg-hoard",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/store/uitil-formatters"],
+      "options": {
+        "jestConfig": "libs/store/uitil-formatters/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/store/uitil-formatters/src/**/*.ts",
+          "libs/store/uitil-formatters/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

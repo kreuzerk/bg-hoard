@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bg-hoard/store/ui-shared": ["libs/store/ui-shared/src/index.ts"]
+      "@bg-hoard/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
+      "@bg-hoard/store/uitil-formatters": [
+        "libs/store/uitil-formatters/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
