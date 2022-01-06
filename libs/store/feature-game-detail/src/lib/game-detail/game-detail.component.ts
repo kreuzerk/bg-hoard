@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import {map, switchMap} from 'rxjs/operators';
 import {HttpClient} from "@angular/common/http";
-import {formatRating} from "../../../../uitil-formatters/src/lib/store-util-formatters";
+import {formatRating} from "@bg-hoard/store/uitil-formatters";
 
 @Component({
   selector: 'bg-hoard-game-detail',
