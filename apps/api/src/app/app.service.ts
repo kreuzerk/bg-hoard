@@ -31,7 +31,7 @@ export class AppService {
   ];
 
   public getAllGames(){
-    return this.games:
+    return this.games;
   }
 
   public getGame(id: string){
