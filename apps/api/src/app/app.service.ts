@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import {Game} from "@bg-hoard/util-interface";
+import {sendNotification} from "@bg-hoard/api/util-notifications";
 
 @Injectable()
 export class AppService {
@@ -37,6 +38,10 @@ export class AppService {
 
   public getGame(id: string){
     return this.games.find(game => game.id === id);
+  }
+
+  public notifyClient() {
+    sendNotification();
   }
 
 }
