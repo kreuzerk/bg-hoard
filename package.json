@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+    "start:api": "nx serve api",
     "build": "nx build",
     "test": "nx test",
     "postinstall": "ngcc --properties es2015 browser module main"
@@ -42,6 +43,7 @@
     "@nestjs/testing": "^8.0.0",
     "@nrwl/cli": "13.4.3",
     "@nrwl/cypress": "13.4.3",
+    "@nrwl/devkit": "13.4.3",
     "@nrwl/eslint-plugin-nx": "13.4.3",
     "@nrwl/jest": "13.4.3",
     "@nrwl/linter": "13.4.3",

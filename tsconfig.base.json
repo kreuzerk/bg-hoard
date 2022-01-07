@@ -7,6 +7,7 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "downlevelIteration": true,
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
@@ -15,13 +16,17 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@bg-hoard/api/util-notifications": [
+        "libs/api/util-notifications/src/index.ts"
+      ],
       "@bg-hoard/store/feature-game-detail": [
         "libs/store/feature-game-detail/src/index.ts"
       ],
       "@bg-hoard/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
       "@bg-hoard/store/uitil-formatters": [
         "libs/store/uitil-formatters/src/index.ts"
-      ]
+      ],
+      "@bg-hoard/util-interface": ["libs/util-interface/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
