@@ -8,6 +8,8 @@
     "store-feature-game-detail": "libs/store/feature-game-detail",
     "store-ui-shared": "libs/store/ui-shared",
     "store-uitil-formatters": "libs/store/uitil-formatters",
-    "util-interface": "libs/util-interface"
+    "util-interface": "libs/util-interface",
+    "vide-games": "apps/vide-games",
+    "vide-games-e2e": "apps/vide-games-e2e"
   }
 }

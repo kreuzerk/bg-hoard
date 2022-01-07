@@ -20,20 +20,26 @@
         "type": "list",
         "items": [
           {
-            "value": "store",
-            "label": "store"
+            "value": "scope:api",
+            "label": "scope:api"
           },
           {
-            "value": "api",
-            "label": "api"
+            "value": "scope:store",
+            "label": "scope:store"
           },
           {
-            "value": "shared",
-            "label": "shared"
+            "value": "scope:shared",
+            "label": "scope:shared"
+          },
+          {
+            "value": "scope:vide-games",
+            "label": "scope:vide-games"
           }
         ]
       }
     }
   },
-  "required": ["name"]
+  "required": [
+    "name"
+  ]
 }
